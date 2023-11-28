@@ -1,0 +1,111 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+form {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #333;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+select {
+    width: 100%;
+}
+
+input[type="submit"],
+a.btn-delete {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 3px;
+    text-decoration: none;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+a.btn-delete {
+    background-color: #dc3545;
+}
+
+#error-message {
+    color: #dc3545;
+    margin-bottom: 10px;
+}
+
+#success-message {
+    color: #28a745;
+    margin-bottom: 10px;
+}
+
+#email-exists {
+    color: #dc3545;
+    margin-bottom: 10px;
+}
+
+.btn-create {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+.btn-delete {
+    background-color: #dc3545;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+#error-message,
+#success-message {
+    text-align: center;
+}
+
+#error-message,
+#success-message,
+#email-exists {
+    font-weight: bold;
+}
+
