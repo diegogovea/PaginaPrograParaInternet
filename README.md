@@ -2,7 +2,7 @@
 
 Este repositorio contiene el código fuente de una página web que muestra un listado de empleados activos y permite realizar diversas acciones como editar, eliminar y ver detalles de cada empleado.
 
-## Contenido del Repositorio
+## Contenido del Repositorio  
 
 - **conexion.php**: Este archivo contiene la lógica de conexión a la base de datos.
 
